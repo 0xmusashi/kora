@@ -1,5 +1,5 @@
 [kora]
-rate_limit = 0
+rate_limit = 1
 
 [validation]
 max_allowed_lamports = 1000000
@@ -7,12 +7,12 @@ max_signatures = 10
 allowed_programs = [
     "11111111111111111111111111111111",  # System Program
     "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",  # Token Program
-    "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+    "BomroFd4tDAGmSRcNCt7TZLkeaeH815KYzfCpSTjHSfP",
 ]
 allowed_tokens = [
-    "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",  # USDC devnet
+    "BomroFd4tDAGmSRcNCt7TZLkeaeH815KYzfCpSTjHSfP",  # test token
 ]
 allowed_spl_paid_tokens = [
-    "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",  # USDC devnet
+    "BomroFd4tDAGmSRcNCt7TZLkeaeH815KYzfCpSTjHSfP",  # test token
 ] 
 disallowed_accounts = []
